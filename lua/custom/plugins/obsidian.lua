@@ -18,7 +18,7 @@ return {
     workspaces = {
       {
         name = "zettelkasten",
-        path = "~/Nextcloud/Zettelkasten",
+        path = "~/Zettelkasten",
       }
     },
     notes_subdir = "notes",
