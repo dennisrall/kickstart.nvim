@@ -631,12 +631,14 @@ require('lazy').setup({
         html = {},
         jsonls = {},
         quick_lint_js = {}, -- javascript
-        tsserver = {},
+        ts_ls = {},
+        -- tsserver = {},
         ltex = {}, -- latex
         texlab = {}, -- latex
         marksman = {}, -- markdown
         -- spectral = {},      -- openapi
         pyright = {},
+        ruff = {},
         ruff_lsp = {},
         rust_analyzer = {}, -- rust
         tailwindcss = {},
