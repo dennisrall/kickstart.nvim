@@ -694,7 +694,6 @@ require('lazy').setup({
         -- spectral = {},      -- openapi
         pyright = {},
         ruff = {},
-        ruff_lsp = {},
         rust_analyzer = {}, -- rust
         tailwindcss = {},
         terraformls = {},
