@@ -645,7 +645,15 @@ require('lazy').setup({
         -- spectral = {},      -- openapi
         pyright = {},
         ruff = {},
-        rust_analyzer = {}, -- rust
+        rust_analyzer = {
+          settings = {
+            ["rust-analyzer"] = {
+                checkOnSave = {
+                    command = "clippy",
+                },
+            },
+         },
+        }, -- rust
         tailwindcss = {},
         terraformls = {},
         volar = {}, -- vue
